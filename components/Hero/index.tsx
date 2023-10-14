@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import TypewriterComponent from "typewriter-effect";
 
 import { motion } from "framer-motion";
 
@@ -39,10 +40,17 @@ const Hero = () => {
                   🚀 DataProjects
                 </h4>
                 <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-16 ">
+                  {"<"}DataDriven
                   <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">
-                    {"<"}DataDriven{"/>"}
-                  </span>{" "}
-                  Attitude
+                    <TypewriterComponent
+                      options={{
+                        strings: ["Attitude", "Results", "Passion", "Bitches"],
+                        autoStart: true,
+                        loop: true,
+                      }}
+                    />
+                  </span>
+                  {"/>"}
                 </h1>
                 <p>
                   DataProjects is a collection of initiatives related to
