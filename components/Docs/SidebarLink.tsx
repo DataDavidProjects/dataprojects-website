@@ -2,7 +2,6 @@
 import Link from "next/link";
 
 const SidebarLink = () => {
-
   return (
     <>
       <li className="block">
@@ -16,7 +15,7 @@ const SidebarLink = () => {
           href={`/docs`}
           className={`text-base py-2 px-3 rounded-sm flex w-full text-black dark:text-white `}
         >
-          Bootstrap Template Guide
+          Project Approvals
         </Link>
         <Link
           href={`/docs`}
@@ -28,7 +27,7 @@ const SidebarLink = () => {
           href={`/docs`}
           className={`text-base py-2 px-3 rounded-sm flex w-full text-black dark:text-white `}
         >
-          Using Tailwind Components
+          OpenSource Frameworks
         </Link>
       </li>
     </>

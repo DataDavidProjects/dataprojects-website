@@ -1,4 +1,5 @@
 import SidebarLink from "@/components/Docs/SidebarLink";
+import Link from "next/link";
 
 export default function DocsPage() {
   return (
@@ -28,9 +29,9 @@ export default function DocsPage() {
                 <p className="text-base text-body-color dark:text-body-color-dark">
                   Please visit:{" "}
                   <b>
-                    <a href="https://nextjstemplates.com/docs">
+                    <Link href="https://nextjstemplates.com/docs">
                       nextjstemplates.com/docs
-                    </a>
+                    </Link>
                   </b>{" "}
                   to check out the real docs, setup guide and even video
                   instructions
