@@ -44,7 +44,7 @@ const Hero = () => {
                   <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">
                     <TypewriterComponent
                       options={{
-                        strings: ["Attitude", "Results", "Passion", "Bitches"],
+                        strings: ["Attitude", "Results", "Passion"],
                         autoStart: true,
                         loop: true,
                       }}
