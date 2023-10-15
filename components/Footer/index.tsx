@@ -1,10 +1,9 @@
 "use client";
-import React from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
-import { VscGithub } from "react-icons/vsc";
-import { TbBrandLinkedin } from "react-icons/tb";
+import Image from "next/image";
 import Link from "next/link";
+import { TbBrandLinkedin } from "react-icons/tb";
+import { VscGithub } from "react-icons/vsc";
 
 const Footer = () => {
   return (
