@@ -1,5 +1,12 @@
 import SidebarLink from "@/components/Docs/SidebarLink";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "DataProjects | Documentation Page",
+  description: "This is Documentation page for DataProjects",
+  // other metadata
+};
 
 export default function DocsPage() {
   return (

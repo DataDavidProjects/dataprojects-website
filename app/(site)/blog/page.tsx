@@ -3,7 +3,7 @@ import BlogItem from "@/components/Blog/BlogItem";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page",
+  title: "DataProjects | Blog Page",
   description: "This is Blog page for DataProjects",
   // other metadata
 };

@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 // Metadata for the Privacy Policy page
 export const metadata: Metadata = {
-  title: "Privacy Policy - DataProjects SaaS",
+  title: "DataProjects | Privacy Policy",
   description: "Privacy Policy page for DataProjects SaaS services",
   // other metadata
 };

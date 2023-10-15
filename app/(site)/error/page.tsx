@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Error Page -DataProjects",
+  title: "DataProjects | Error Page ",
   description: "This is Error page for DataProjects",
   // other metadata
 };

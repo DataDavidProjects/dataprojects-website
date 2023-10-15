@@ -12,12 +12,9 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import { constructMetadata } from "@/lib/utils";
 
-export const metadata: Metadata = {
-  title: "DataProjects",
-  description: "Discover the DataDriven Attitude",
-  // other metadata
-};
+export const metadata = constructMetadata();
 
 export default function Home() {
   return (
