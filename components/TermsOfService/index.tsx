@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-// components/Privacy/PrivacyContent.js
-const TermofServiceContent = () => {
+// components/TermofService/TermofServiceContent.js
+const TermsOfServiceContent = () => {
   return (
     <div className="mx-auto max-w-3xl p-4">
       <motion.div
@@ -24,7 +24,7 @@ const TermofServiceContent = () => {
       >
         <section className="text-center mb-8">
           <h2 className="text-4xl font-semibold mb-4">
-            Term of Service of DataProjects
+            Terms of Service of DataProjects
           </h2>
           <p className="text-center">Effective Date: 14/10/2023</p>
         </section>
@@ -77,4 +77,4 @@ const TermofServiceContent = () => {
   );
 };
 
-export default TermofServiceContent;
+export default TermsOfServiceContent;

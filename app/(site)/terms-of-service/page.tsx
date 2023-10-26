@@ -1,5 +1,5 @@
 // Importing necessary components and data
-import TermofServiceContent from "@/components/TermofService";
+import TermsOfServiceContent from "@/components/TermsOfService";
 import { Metadata } from "next";
 
 // Metadata for the Term of Service page
@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const TermofService = async () => {
+const TermsOfService = async () => {
   return (
     <>
       {/* <!-- ===== Term of Service Section Start ===== --> */}
       <section className="py-20 lg:py-25 xl:py-30">
         <div className="mx-auto max-w-c-1280 px-4 md:px-8 xl:px-0 mt-15 xl:mt-20">
           <div className="prose prose-lg">
-            <TermofServiceContent />
+            <TermsOfServiceContent />
           </div>
         </div>
       </section>
@@ -25,4 +25,4 @@ const TermofService = async () => {
   );
 };
 
-export default TermofService;
+export default TermsOfService;
