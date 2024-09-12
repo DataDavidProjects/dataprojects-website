@@ -4,7 +4,7 @@ const faqData: FAQ[] = [
   {
     id: 1,
     quest: "What is DataProjects?",
-    ans: "DataProject was founded to promote, scale and unite all the initiatives of the founder Davide Lupis in 2022. Since then, more people have joined and worked to craft their skills in Data and AI to make an impact on their lives.",
+    ans: "DataProject was founded to promote, scale and unite all the initiatives of the founder Davis in 2022. Since then, more people have joined and worked to craft their skills in Data and AI to make an impact on their lives.",
   },
   {
     id: 2,
